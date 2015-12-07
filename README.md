@@ -4,6 +4,8 @@ This tool uses [Feednami](https://feednami.com/) to fetch an RSS feed and displa
 
 ## How to use
 
+Example source can be found [here](https://github.com/richardkazuomiller/feednami-blog-widget/tree/master/examples) or seen on [feednami.com](https://feednami.com/static/feednami-blog-widget/examples/index.html)
+
 ### Import 
 
     <script src="https://storage.googleapis.com/feednami-static/js/feednami-client-v1.0.1.js"></script>
@@ -76,7 +78,8 @@ You may not want to show every entry in the feed. You can hide certain entries b
 
 This feed has an ad in the middle that I don't want to show:
 
-    <div class="blog" id="sasaki-filtered" data-url="http://feedblog.ameba.jp/rss/ameblo/sasaki-sd"></div>
+    <div class="blog" id="sasaki-filtered" 
+      data-url="http://feedblog.ameba.jp/rss/ameblo/sasaki-sd"></div>
     
 Ads have the text "PR:" at the beginning, so I can easily hide them by checking the contents of the title.
 
