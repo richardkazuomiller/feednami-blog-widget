@@ -1,0 +1,56 @@
+// out: ../css/style.css, compress: true
+
+body {
+  background-color: #eee;
+  font-family: HelveticaNeue-Thin, HelveticaNeue, Helvetica;
+  margin: 0px;
+}
+
+a {
+  text-decoration: none;
+  color: #aae
+}
+
+.blog {
+  margin: 5px;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.3);
+  background-color: white;
+  width: 300px;
+  height: 400px;
+  overflow-y: scroll;
+  font-size: 16px;
+  &.single {
+    height: 51px;
+    overflow: hidden;
+    .entry-container {
+      border-bottom: none;
+    }
+  }
+  .entry-container {
+    border-bottom: 1px solid #eee;
+    padding: 5px;
+    .title-container {
+      margin-bottom: 5px;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    .date {
+      font-size: 14px;
+      color: #aaa;
+    }
+  }
+}
+
+h1 {
+  font-size: 2em;
+  margin: 20px;
+  color: #888;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 10px;
+  margin-left: 18px;
+  color: #888;
+}
